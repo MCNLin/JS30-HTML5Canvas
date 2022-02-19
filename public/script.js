@@ -28,7 +28,7 @@ const canvas = document.querySelector('#draw');
     if(hue >= 360) {
      hue = 0; 
     }
-    if(ctx.lineWidth >= 200 || ctx.lineWidth <= 1){
+    if(ctx.lineWidth >= 200|| ctx.lineWidth <= 50){
       direction = !direction;
     }
     if(direction) {
